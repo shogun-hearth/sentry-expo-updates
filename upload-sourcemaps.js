@@ -14,9 +14,7 @@ module.exports = async (options) => {
     iosManifest,
     androidBundle,
     androidSourceMap,
-    androidManifest,
     projectRoot,
-    exp,
   } = options;
 
   const tmpdir = path.resolve(projectRoot, '.tmp', 'sentry');
