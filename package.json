@@ -1,8 +1,9 @@
 {
   "name": "sentry-expo-updates",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "main": "index.ts",
   "license": "MIT",
+  "homepage": "https://github.com/shogunenterprises/sentry-expo-updates",
   "dependencies": {
     "@expo/spawn-async": "^1.2.8",
     "mkdirp": "^1.0.3",

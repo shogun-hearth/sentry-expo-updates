@@ -21,6 +21,30 @@ configureWithExpoUpdates({
 });
 ```
 
+## Sourcemaps support
+
+```
+{
+  ...
+  "expo": {
+    ...
+    "hooks": {
+      ...
+      "postPublish": [
+        {
+          "file": "sentry-expo-updates/upload-sourcemaps",
+          "config": {
+            "organization": "...",
+            "project": "..",
+            "authToken": "..."
+          }
+        }
+      ]
+    }
+  }
+}
+```
+
 ## Limitations
 
 - This library is not tested with the new [*no-publish workflow*](https://github.com/expo/expo/blob/master/packages/expo-updates/README.md#upgrading) of `expo-updates`.
